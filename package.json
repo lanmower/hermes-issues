@@ -1,0 +1,13 @@
+{
+  "name": "hermes-issues",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "bun scripts/fetch_items.js",
+    "build": "bun build.js",
+    "dev": "bun fetch && bun build && echo 'open docs/index.html'"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

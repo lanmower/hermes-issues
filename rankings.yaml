@@ -1,0 +1,450 @@
+"344":
+  score: 190
+  note: "feat: Multi-Agent Architecture orchestration"
+"3259":
+  score: 95
+  note: "fix: skills.sh index non-existent skills"
+"4692":
+  score: 125
+  note: "Ink TUI refactor: major presentation overhaul"
+"5417":
+  score: 80
+  note: "fix: tool name duplication in execution"
+"7570":
+  score: 132
+  note: "fix: CLI crash in /skills browse"
+"8114":
+  score: 135
+  note: "feat: configuration-driven hooks system"
+"8120":
+  score: 52
+  note: "bug: vision_analyze timeouts in WSL2"
+"8186":
+  score: 150
+  note: fix broken SSH backend in Docker
+"8462":
+  score: 50
+  note: bug - smart routing overrides model switch
+"8519":
+  score: 160
+  note: systemd service path resolution fix
+"8535":
+  score: 72
+  note: feat - DingTalk adapter voice/video support
+"8556":
+  score: 105
+  note: new session management REST API
+"8576":
+  score: 200
+  note: security vulnerabilities in bridge
+"8578":
+  score: 195
+  note: setup dependabot for security
+"8580":
+  score: 120
+  note: security isolation for MCP servers
+"8596":
+  score: 180
+  note: "critical: migration destroys runtime state"
+"8686":
+  score: 245
+  note: "security: harden WeCom callback (XML DoS/XXE)"
+"8747":
+  score: 250
+  note: "security: validate file:// paths (path traversal)"
+"8805":
+  score: 58
+  note: fix - resolve systemd reload kill path
+"8808":
+  score: 60
+  note: "fix: wechat document sending"
+"8809":
+  score: 55
+  note: feat - exfer blockchain skill
+"8812":
+  score: 62
+  note: fix - honor named custom anthropic runtime
+"8814":
+  score: 165
+  note: "critical: restore custom providers after migration"
+"8817":
+  score: 110
+  note: feat - smart semantic message routing
+"8822":
+  score: 75
+  note: feat - ByteDance Seed-ASR provider
+"8827":
+  score: 65
+  note: fix - Support providers dict for custom endpoints
+"8828":
+  score: 68
+  note: fix - uv venv already exists in docker build
+"8832":
+  score: 78
+  note: feat - add Amazon Bedrock inference provider
+"8833":
+  score: 115
+  note: "fix: support claude-opus-4.6-1m model ID"
+"8836":
+  score: 70
+  note: "fix: refresh activity during streaming"
+"8839":
+  score: 90
+  note: fix - preserve venv python path in systemd
+"8841":
+  score: 170
+  note: "critical: validate token format in model picker"
+"8849":
+  score: 82
+  note: feat - explicit text aliases for skill activation
+"8850":
+  score: 85
+  note: fix - add missing copilot/github provider aliases
+"8852":
+  score: 145
+  note: proposal - official Web Control UI integration
+"8854":
+  score: 140
+  note: "feat: offline compression (GLiNER2 + LLMLingua-2)"
+"8855":
+  score: 130
+  note: fix - invalidate LRU cache on skill deletion
+"9179":
+  score: 260
+  note: "security: add SECURITY.md"
+"9486":
+  score: 128
+  note: "fix: Bedrock API 400 error with empty text blocks"
+"9487":
+  score: 49
+  note: "fix: custom endpoint /v1 fallback for upstream 502"
+"9489":
+  score: 127
+  note: "fix: boost max_tokens on length-continuation retries"
+"9491":
+  score: 126
+  note: "fix: filter empty text blocks for Anthropic"
+"9493":
+  score: 300
+  note: "critical: webUI publicly accessible without auth"
+"9495":
+  score: 180
+  note: "feat: improve CLI status context & reasoning mode"
+"9496":
+  score: 185
+  note: "feat: dashboard profile-aware sessions & analytics"
+"9497":
+  score: 146
+  note: "fix: cap tool previews for small max_len"
+"9501":
+  score: 152
+  note: "fix: load models for custom/dynamic providers"
+"9502":
+  score: 147
+  note: "fix: include dashboard dependencies in Nix build"
+"9503":
+  score: 148
+  note: "fix: guard cron against non-dict conversation results"
+"9504":
+  score: 155
+  note: "fix: include qrcode in messaging extra"
+"9719":
+  score: 40
+  note: "[Neutral]"
+"9720":
+  score: 50
+  note: "[Human-likely] personal pronouns"
+"9721":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9722":
+  score: 40
+  note: "[Neutral]"
+"9723":
+  score: 25
+  note: "[AI-likely] em-dash"
+"9724":
+  score: 40
+  note: "[Neutral]"
+"9725":
+  score: 40
+  note: "[Neutral]"
+"9726":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9727":
+  score: 50
+  note: "[Human-likely] personal pronouns"
+"9728":
+  score: 40
+  note: "[Neutral]"
+"9729":
+  score: 60
+  note: "[Human-likely] personal pronouns, human phrasing"
+"9730":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9731":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9732":
+  score: 40
+  note: "[Neutral]"
+"9733":
+  score: 40
+  note: "[Neutral]"
+"9734":
+  score: 50
+  note: "[Human-likely] personal pronouns"
+"9735":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9736":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9737":
+  score: 40
+  note: "[Neutral]"
+"9738":
+  score: 50
+  note: "[Human-likely] personal pronouns"
+"9739":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9740":
+  score: 40
+  note: "[Neutral]"
+"9741":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9742":
+  score: 40
+  note: "[Neutral]"
+"9743":
+  score: 60
+  note: "[Neutral]"
+"9744":
+  score: 60
+  note: "[Neutral]"
+"9745":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9746":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9747":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9748":
+  score: 110
+  note: "[Human-likely] personal pronouns"
+"9749":
+  score: 40
+  note: "[Neutral]"
+"9750":
+  score: 40
+  note: "[Neutral]"
+"9751":
+  score: 60
+  note: "[Neutral]"
+"9752":
+  score: 25
+  note: "[AI-likely] em-dash"
+"9753":
+  score: 40
+  note: "[Neutral]"
+"9754":
+  score: 10
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9755":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9756":
+  score: 60
+  note: "[Neutral]"
+"9757":
+  score: 40
+  note: "[Neutral]"
+"9758":
+  score: 40
+  note: "[Neutral]"
+"9759":
+  score: 40
+  note: "[Neutral]"
+"9760":
+  score: 10
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9761":
+  score: 40
+  note: "[Neutral]"
+"9762":
+  score: 40
+  note: "[Neutral]"
+"9763":
+  score: 40
+  note: "[Neutral]"
+"9764":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9765":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9766":
+  score: 10
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9767":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9768":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9769":
+  score: 40
+  note: "[Neutral]"
+"9770":
+  score: 40
+  note: "[Neutral]"
+"9771":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9772":
+  score: 40
+  note: "[Neutral]"
+"9773":
+  score: 40
+  note: "[Neutral]"
+"9774":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9775":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9776":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9777":
+  score: 40
+  note: "[Neutral]"
+"9778":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9779":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9780":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9781":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9782":
+  score: 50
+  note: "[Human-likely] personal pronouns"
+"9783":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9784":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9785":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9786":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9787":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9788":
+  score: 15
+  note: "[AI-likely] em-dash"
+"9789":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9790":
+  score: 10
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9791":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9792":
+  score: 40
+  note: "[Neutral]"
+"9793":
+  score: 40
+  note: "[Neutral]"
+"9794":
+  score: 40
+  note: "[Neutral]"
+"9795":
+  score: 40
+  note: "[Neutral]"
+"9796":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9797":
+  score: 40
+  note: "[Neutral]"
+"9798":
+  score: 40
+  note: "[Neutral]"
+"9799":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9800":
+  score: 30
+  note: "[AI-likely] em-dash"
+"9801":
+  score: 30
+  note: "[AI-likely] em-dash"
+"9802":
+  score: 40
+  note: "[Neutral]"
+"9803":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9804":
+  score: 30
+  note: "[AI-likely] em-dash"
+"9805":
+  score: 30
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9806":
+  score: 50
+  note: "[Human-likely] human phrasing"
+"9807":
+  score: 40
+  note: "[Neutral]"
+"9808":
+  score: 10
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9809":
+  score: 30
+  note: "[AI-likely] em-dash"
+"9810":
+  score: 10
+  note: "[AI-likely] em-dash (despite: human phrasing)"
+"9811":
+  score: 40
+  note: "[Neutral]"
+"9812":
+  score: 40
+  note: "[Neutral]"
+"9813":
+  score: 40
+  note: "[Neutral]"
+"9814":
+  score: 40
+  note: "[Neutral]"
+"9815":
+  score: 15
+  note: "[AI-likely] em-dash (despite: personal pronouns)"
+"9816":
+  score: 40
+  note: "[Neutral]"
+"9817":
+  score: 10
+  note: "[AI-likely] em-dash"
+"9818":
+  score: 40
+  note: "[Neutral]"
